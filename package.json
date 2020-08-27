@@ -21,7 +21,7 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
-        "npm:publish": "git push && npm publish"
+        "npm:publish:minor": "npm version minor && git commit -am 'npm update' && git push && npm publish"
     },
     "eslintConfig": {
         "extends": "react-app"
